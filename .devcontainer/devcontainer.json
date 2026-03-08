@@ -1,0 +1,20 @@
+{
+    "name": "Rust Dev Environment",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "rust-lang.rust-analyzer", // The essential IDE engine
+                "tamasfe.even-better-toml", // For Cargo.toml support
+                "serayuzgur.crates" // Helps manage dependencies
+            ]
+        }
+    },
+    "remoteUser": "rust",
+    "mounts": [
+        "source=${localWorkspaceFolder},target=/workspace,type=bind"
+    ],
+    "workspaceFolder": "/workspace"
+}

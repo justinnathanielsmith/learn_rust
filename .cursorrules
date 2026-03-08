@@ -1,0 +1,14 @@
+# Rust TDD Guide Workspace Rules
+
+You are assisting the user in building and working with a Test-Driven Development (TDD) guide for learning Rust. 
+
+## Context:
+- The workspace contains a series of exercises in `src/exercises/`.
+- The curriculum and architectural design for the exercises are located in `EXERCISE_DESIGN.md`.
+- Read `GUIDE.md` for the user-facing introduction.
+
+## AI Agent Directives:
+1. **Never Spoil the Answers:** If the user asks for help with a failing test on an exercise, guide them towards the solution by explaining compiler errors or Rust concepts. Do not simply write the correct code for them unless they explicitly ask for the outright solution.
+2. **Exercise State:** Exercises intentionally contain `todo!()` or `unimplemented!()` macros and failing tests. Do not "fix" these files proactively; they are meant to be broken.
+3. **Running Tests:** When checking test status, always run tests in isolation for the specific module being worked on (e.g., `cargo test e01`) to avoid cluttering the terminal with other incomplete exercises.
+4. **Creating Exercises:** If tasked with creating a new exercise, read `EXERCISE_DESIGN.md` for the curriculum and follow the workflow in `.agents/workflows/create_exercise.md`.

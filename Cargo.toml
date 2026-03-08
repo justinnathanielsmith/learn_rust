@@ -1,6 +1,9 @@
 [package]
-name = "hello_world"
+name = "rust_tdd_guide"
 version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+ratatui = "0.26"
+crossterm = "0.27"
+tokio = { version = "1.50.0", features = ["full"] }

@@ -1,0 +1,12 @@
+pub mod e01_functions;
+pub mod e02_control_flow;
+pub mod e03_ownership;
+pub mod e04_structs;
+pub mod e05_enums;
+pub mod e06_error_handling;
+pub mod e07_collections;
+pub mod e08_traits;
+pub mod e09_iterators;
+pub mod e10_concurrency;
+pub mod e11_async;
+pub mod e12_ratatui_basics;
