@@ -31,7 +31,14 @@ The curriculum is designed to be followed in order:
 - **e02**: Control Flow (If/Else, Loops)
 - **e03**: Ownership & Borrowing
 - **e04**: Structs & Implementations
-- *...and more to come!*
+- **e05**: Enums & Pattern Matching
+- **e06**: Error Handling
+- **e07**: Collections
+- **e08**: Traits & Generics
+- **e09**: Iterators & Closures
+- **e10**: Concurrency
+- **e11**: Async Programming
+- **e12**: Ratatui Basics
 
 For the full roadmap and architecture details, see [EXERCISE_DESIGN.md](./EXERCISE_DESIGN.md).
 

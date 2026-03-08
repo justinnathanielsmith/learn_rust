@@ -31,7 +31,7 @@ To prevent users from being overwhelmed by the test output of the entire workspa
 
 Here is the planned sequential list of Rust topics to cover, along with proposed exercises for each.
 
-### Topic 1: Functions and Basic Types (Completed)
+### Topic 1: Functions and Basic Types
 - **Module:** `e01_functions`
 - **Exercises:**
   - `add(a: i32, b: i32) -> i32`
